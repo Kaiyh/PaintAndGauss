@@ -1,0 +1,32 @@
+E:\01 Visual Studio 2015 程序\Guess\Client\bin\Debug\Client.exe.config
+E:\01 Visual Studio 2015 程序\Guess\Client\bin\Debug\Client.exe
+E:\01 Visual Studio 2015 程序\Guess\Client\bin\Debug\Client.pdb
+E:\01 Visual Studio 2015 程序\Guess\Client\obj\Debug\MainWindow.g.cs
+E:\01 Visual Studio 2015 程序\Guess\Client\obj\Debug\App.g.cs
+E:\01 Visual Studio 2015 程序\Guess\Client\obj\Debug\Client_MarkupCompile.cache
+E:\01 Visual Studio 2015 程序\Guess\Client\obj\Debug\Client_MarkupCompile.lref
+E:\01 Visual Studio 2015 程序\Guess\Client\obj\Debug\MainWindow.baml
+E:\01 Visual Studio 2015 程序\Guess\Client\obj\Debug\Client.g.resources
+E:\01 Visual Studio 2015 程序\Guess\Client\obj\Debug\Client.Properties.Resources.resources
+E:\01 Visual Studio 2015 程序\Guess\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+E:\01 Visual Studio 2015 程序\Guess\Client\obj\Debug\Client.exe
+E:\01 Visual Studio 2015 程序\Guess\Client\obj\Debug\Client.pdb
+E:\01 Visual Studio 2015 程序\Guess\Client\obj\Debug\Index.g.cs
+E:\01 Visual Studio 2015 程序\Guess\Client\obj\Debug\Index.baml
+E:\01 Visual Studio 2015 程序\Guess\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+F:\U盘\01 编程语言\03 C#\project\你画我猜\Guess\Client\bin\Debug\Client.exe.config
+F:\U盘\01 编程语言\03 C#\project\你画我猜\Guess\Client\obj\Debug\Client.exe
+F:\U盘\01 编程语言\03 C#\project\你画我猜\Guess\Client\obj\Debug\Client.pdb
+F:\U盘\01 编程语言\03 C#\project\你画我猜\Guess\Client\bin\Debug\Client.exe
+F:\U盘\01 编程语言\03 C#\project\你画我猜\Guess\Client\bin\Debug\Client.pdb
+F:\U盘\01 编程语言\03 C#\project\你画我猜\Guess\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+F:\U盘\01 编程语言\03 C#\project\你画我猜\Guess\Client\obj\Debug\Index.g.cs
+F:\U盘\01 编程语言\03 C#\project\你画我猜\Guess\Client\obj\Debug\MainWindow.g.cs
+F:\U盘\01 编程语言\03 C#\project\你画我猜\Guess\Client\obj\Debug\App.g.cs
+F:\U盘\01 编程语言\03 C#\project\你画我猜\Guess\Client\obj\Debug\Client_MarkupCompile.cache
+F:\U盘\01 编程语言\03 C#\project\你画我猜\Guess\Client\obj\Debug\Client_MarkupCompile.lref
+F:\U盘\01 编程语言\03 C#\project\你画我猜\Guess\Client\obj\Debug\Index.baml
+F:\U盘\01 编程语言\03 C#\project\你画我猜\Guess\Client\obj\Debug\MainWindow.baml
+F:\U盘\01 编程语言\03 C#\project\你画我猜\Guess\Client\obj\Debug\Client.g.resources
+F:\U盘\01 编程语言\03 C#\project\你画我猜\Guess\Client\obj\Debug\Client.Properties.Resources.resources
+F:\U盘\01 编程语言\03 C#\project\你画我猜\Guess\Client\obj\Debug\Client.csproj.GenerateResource.Cache

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="GuessServer" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="GuessServer" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="GuessServer/Imports">
+      <xsd:import namespace="GuessServer" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/Server" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IGuessService_Login_InputMessage">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="IGuessService_EnterHall_InputMessage">
+    <wsdl:part name="parameters" element="tns:EnterHall" />
+  </wsdl:message>
+  <wsdl:message name="IGuessService_EnterRoom_InputMessage">
+    <wsdl:part name="parameters" element="tns:EnterRoom" />
+  </wsdl:message>
+  <wsdl:message name="IGuessService_StartGame_InputMessage">
+    <wsdl:part name="parameters" element="tns:StartGame" />
+  </wsdl:message>
+  <wsdl:message name="IGuessService_SendInk_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendInk" />
+  </wsdl:message>
+  <wsdl:message name="IGuessService_SendMessage_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendMessage" />
+  </wsdl:message>
+  <wsdl:message name="IGuessService_Logout_InputMessage">
+    <wsdl:part name="parameters" element="tns:Logout" />
+  </wsdl:message>
+  <wsdl:message name="IGuessService_ShowLogin_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ShowLogin" />
+  </wsdl:message>
+  <wsdl:message name="IGuessService_ShowHall_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ShowHall" />
+  </wsdl:message>
+  <wsdl:message name="IGuessService_ShowRoom_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ShowRoom" />
+  </wsdl:message>
+  <wsdl:message name="IGuessService_ShowStart_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ShowStart" />
+  </wsdl:message>
+  <wsdl:message name="IGuessService_ShowInk_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ShowInk" />
+  </wsdl:message>
+  <wsdl:message name="IGuessService_ShowMessage_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ShowMessage" />
+  </wsdl:message>
+  <wsdl:message name="IGuessService_ShowWin_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ShowWin" />
+  </wsdl:message>
+  <wsdl:message name="IGuessService_ShowNewTurn_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ShowNewTurn" />
+  </wsdl:message>
+  <wsdl:message name="IGuessService_ShowLogout_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ShowLogout" />
+  </wsdl:message>
+  <wsdl:portType msc:usingSession="true" name="IGuessService">
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="Login">
+      <wsdl:input wsaw:Action="GuessServer/IGuessService/Login" message="tns:IGuessService_Login_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="EnterHall">
+      <wsdl:input wsaw:Action="GuessServer/IGuessService/EnterHall" message="tns:IGuessService_EnterHall_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="EnterRoom">
+      <wsdl:input wsaw:Action="GuessServer/IGuessService/EnterRoom" message="tns:IGuessService_EnterRoom_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="StartGame">
+      <wsdl:input wsaw:Action="GuessServer/IGuessService/StartGame" message="tns:IGuessService_StartGame_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="SendInk">
+      <wsdl:input wsaw:Action="GuessServer/IGuessService/SendInk" message="tns:IGuessService_SendInk_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="SendMessage">
+      <wsdl:input wsaw:Action="GuessServer/IGuessService/SendMessage" message="tns:IGuessService_SendMessage_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="Logout">
+      <wsdl:input wsaw:Action="GuessServer/IGuessService/Logout" message="tns:IGuessService_Logout_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ShowLogin">
+      <wsdl:output wsaw:Action="GuessServer/IGuessService/ShowLogin" message="tns:IGuessService_ShowLogin_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ShowHall">
+      <wsdl:output wsaw:Action="GuessServer/IGuessService/ShowHall" message="tns:IGuessService_ShowHall_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ShowRoom">
+      <wsdl:output wsaw:Action="GuessServer/IGuessService/ShowRoom" message="tns:IGuessService_ShowRoom_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ShowStart">
+      <wsdl:output wsaw:Action="GuessServer/IGuessService/ShowStart" message="tns:IGuessService_ShowStart_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ShowInk">
+      <wsdl:output wsaw:Action="GuessServer/IGuessService/ShowInk" message="tns:IGuessService_ShowInk_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ShowMessage">
+      <wsdl:output wsaw:Action="GuessServer/IGuessService/ShowMessage" message="tns:IGuessService_ShowMessage_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ShowWin">
+      <wsdl:output wsaw:Action="GuessServer/IGuessService/ShowWin" message="tns:IGuessService_ShowWin_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ShowNewTurn">
+      <wsdl:output wsaw:Action="GuessServer/IGuessService/ShowNewTurn" message="tns:IGuessService_ShowNewTurn_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ShowLogout">
+      <wsdl:output wsaw:Action="GuessServer/IGuessService/ShowLogout" message="tns:IGuessService_ShowLogout_OutputCallbackMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

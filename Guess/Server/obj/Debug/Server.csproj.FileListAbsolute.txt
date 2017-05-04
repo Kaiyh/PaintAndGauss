@@ -1,0 +1,11 @@
+E:\01 Visual Studio 2015 程序\Guess\Server\bin\Debug\Server.dll.config
+E:\01 Visual Studio 2015 程序\Guess\Server\bin\Debug\Server.dll
+E:\01 Visual Studio 2015 程序\Guess\Server\bin\Debug\Server.pdb
+E:\01 Visual Studio 2015 程序\Guess\Server\obj\Debug\Server.dll
+E:\01 Visual Studio 2015 程序\Guess\Server\obj\Debug\Server.pdb
+F:\U盘\01 编程语言\03 C#\project\你画我猜\Guess\Server\bin\Debug\Server.dll.config
+F:\U盘\01 编程语言\03 C#\project\你画我猜\Guess\Server\bin\Debug\Server.dll
+F:\U盘\01 编程语言\03 C#\project\你画我猜\Guess\Server\bin\Debug\Server.pdb
+F:\U盘\01 编程语言\03 C#\project\你画我猜\Guess\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+F:\U盘\01 编程语言\03 C#\project\你画我猜\Guess\Server\obj\Debug\Server.dll
+F:\U盘\01 编程语言\03 C#\project\你画我猜\Guess\Server\obj\Debug\Server.pdb

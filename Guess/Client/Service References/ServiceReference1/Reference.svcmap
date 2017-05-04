@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="af0226a0-8d3b-405a-a9c0-a3e9722def7a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/Server/GuessService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="GuessServer.wsdl" MetadataType="Wsdl" ID="a18e659b-1579-4982-bfd7-f08d06ae9ad6" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Server/GuessService/mex" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="c4959e96-0fe5-40f0-813f-b0de23e55f3b" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Server/GuessService/mex" />
+    <MetadataFile FileName="GuessServer.xsd" MetadataType="Schema" ID="e7c3a9d4-c95a-4555-88f4-4ceead1a90b2" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Server/GuessService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="49347247-3bf7-46d1-a261-8a7dc7d3c87d" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Server/GuessService/mex" />
+    <MetadataFile FileName="Server.xsd" MetadataType="Schema" ID="64ab4b02-b63e-4808-a4b8-b0525004ee61" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Server/GuessService/mex" />
+    <MetadataFile FileName="Arrays.xsd" MetadataType="Schema" ID="e1c60a87-52a6-4cda-af56-7a2014ac2b18" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Server/GuessService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

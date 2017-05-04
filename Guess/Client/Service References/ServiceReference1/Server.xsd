@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Server" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Server" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="User">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="callback" nillable="true" type="xs:anyType" />
+      <xs:element minOccurs="0" name="icon" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="inRoom" type="xs:int" />
+      <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="redy" type="xs:boolean" />
+      <xs:element minOccurs="0" name="score" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="User" nillable="true" type="tns:User" />
+  <xs:complexType name="Room">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="id" type="xs:int" />
+      <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="question" nillable="true" type="tns:Question" />
+      <xs:element minOccurs="0" name="thisTurnBeginTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="thisTurnEndTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="users" nillable="true" type="tns:ArrayOfUser" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Room" nillable="true" type="tns:Room" />
+  <xs:complexType name="Question">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="answer" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="level" type="xs:int" />
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="tips" nillable="true" type="q1:ArrayOfstring" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Question" nillable="true" type="tns:Question" />
+  <xs:complexType name="ArrayOfUser">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="User" nillable="true" type="tns:User" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfUser" nillable="true" type="tns:ArrayOfUser" />
+</xs:schema>
